@@ -4,4 +4,6 @@ function canExecuteFastAttack(knightIsAwake) {
     return !knightIsAwake;
   }
   
-  // console.log(canExecuteFastAttack(knightIsAwake));
+// console.log(canExecuteFastAttack(knightIsAwake));
+
+

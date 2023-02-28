@@ -1,3 +1,5 @@
+// this is for me --> i cant understand this please look again 😑🙂😶
+
 // const knightIsAwake = true;
 
 function canExecuteFastAttack(knightIsAwake) {

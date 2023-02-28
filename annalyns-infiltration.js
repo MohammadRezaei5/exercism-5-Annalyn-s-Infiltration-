@@ -28,3 +28,23 @@ function canSignalPrisoner(archerIsAwake, prisonerIsAwake) {
 }
 
 // console.log(canSignalPrisoner(archerIsAwake, prisonerIsAwake));
+
+///********///
+
+// const knightIsAwake = false;
+// const archerIsAwake = true;
+// const prisonerIsAwake = false;
+// const petDogIsPresent = false;
+
+function canFreePrisoner(
+  knightIsAwake,
+  archerIsAwake,
+  prisonerIsAwake,
+  petDogIsPresent
+) {
+  return (
+    (!knightIsAwake && !archerIsAwake && prisonerIsAwake) ||
+    (petDogIsPresent && !archerIsAwake)
+  );
+}
+// console.log(canFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent));
